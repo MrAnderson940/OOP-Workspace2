@@ -3,6 +3,9 @@
 using namespace std;
 
 bool is_ascending(int array[], int n){
+    if (n<1){
+        return false;
+    }
     int element;
     element = array[0];
 
