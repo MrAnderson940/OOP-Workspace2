@@ -13,5 +13,6 @@ int main(){
     cout << is_ascending(array1,n) << endl;
     cout << is_ascending(array2,n) << endl;
     cout << is_ascending(array3,n) << endl;
+    cout << is_ascending(array1,-3) << endl;
     return 0;
 }
