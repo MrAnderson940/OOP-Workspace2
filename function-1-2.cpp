@@ -12,7 +12,8 @@ double array_mean(int array[], int n){
 
     // summing the array
 
-    int sum = 0, adv = 0;
+    int sum = 0;
+    double adv = 0;
 
     for (int i=0; i<n; i++){
         sum += array[i];
