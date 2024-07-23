@@ -12,7 +12,7 @@ double array_mean(int array[], int n){
 
     // summing the array
 
-    int sum = 0;
+    double sum = 0;
     double adv = 0;
 
     for (int i=0; i<n; i++){
@@ -20,7 +20,7 @@ double array_mean(int array[], int n){
     }
 
     adv = sum/n;
-
+    cout << adv << ' ' << sum << endl;
     return adv;
 
 }
