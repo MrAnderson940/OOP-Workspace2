@@ -20,7 +20,6 @@ double array_mean(int array[], int n){
     }
 
     adv = sum/n;
-    cout << adv << ' ' << sum << endl;
     return adv;
 
 }
