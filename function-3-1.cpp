@@ -13,7 +13,7 @@ bool is_fanarray(int array[], int n){
     back = array[n];
 
     for (int i=1; i<n; i++){
-        if (frount == back){
+        if (frount == back && frount < array[i]){
             n--;
             frount = array[i];
             back = array[n];

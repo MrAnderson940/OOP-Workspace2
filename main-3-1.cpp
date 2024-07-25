@@ -8,7 +8,7 @@ int main(){
     int array1[] = {1,2,3,2,1}, n1=5;
     int array2[] = {1,2,2,1}, n2=4;
     int array3[] = {2,4,4,2};
-    int array4[] = {1,2,3,4,5}, n3=-3;
+    int array4[] = {1,2,1,2,1}, n3=-3;
 
     cout << is_fanarray(array1,n1) << endl;
     cout << is_fanarray(array2,n2) << endl;
