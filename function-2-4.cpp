@@ -28,7 +28,7 @@ int array_max(int integers[], int length){
     return max;
 }
 
-int array_min_max(int integers[], int length){
+int sum_min_max(int integers[], int length){
     if (length<1){
         return -1;
     }
