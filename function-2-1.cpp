@@ -8,7 +8,6 @@ void print_binary_str(std::string decimal_number){
 bool bigger = false, start = false;
 int b10, b2[64] = {0};
 b10 = stoi(decimal_number);
-    cout << b10 << endl;
     
     for (int i=63; bigger == false && i >=0; i-- ){
         b2[i] = b10 % 2;
