@@ -13,12 +13,12 @@ int main(){
     changeValue(p1);
     cout << a << endl;
 
-    printarray(array1, n);
+    printArray(array1, n);
     cout << arrayMax(array1,n) << endl;
     double *array2;
     array2 = dynamicArray(n);
     // cout << "t/n";
-    printarray(array2, n);
+    printArray(array2, n);
     delete[] array2;
     return 0;
 }

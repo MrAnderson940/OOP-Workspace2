@@ -5,7 +5,7 @@ void changeValue(double* a){
     *a = 42;
 }
 
-void printarray(double* a, int n){
+void printArray(double* a, int n){
     for (int i=0; i<n; i++){
         cout << a[i] << " ";
     }
