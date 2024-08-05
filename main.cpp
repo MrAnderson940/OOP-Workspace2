@@ -16,7 +16,7 @@ int main(){
     printArray(array1, n);
     cout << arrayMax(array1,n) << endl;
     double *array2;
-    array2 = dynamicArray(n);
+    array2 = dynamicArray(n, 7.6);
     // cout << "t/n";
     printArray(array2, n);
     delete[] array2;

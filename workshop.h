@@ -22,13 +22,13 @@ double arrayMax(double* a, int n){
     return max;
 }
 
-double* dynamicArray(int n){
+double* dynamicArray(int n, double m){
     // cout << "t1\n";
     double* array = new double[n]; 
     // cout << "t2\n" << &array << endl << (&array + 1) << endl;
     for (int i=0; i<n; i++){
         // cout << "t3\n" << &array +i << endl << &i << endl;
-        array[i] = 0;
+        array[i] = m;
         
         // cout << *(&array+i) << " " << i << endl;
     };
