@@ -3,7 +3,7 @@
 using namespace std;
 
 double* duplicateArray(double* array, int size){
-    double* Narray = new(double);
+    double* Narray = new double[size];
     for (int i=0; i<size;i++){
         Narray[i]=array[i];
 
