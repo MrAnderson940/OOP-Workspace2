@@ -1,5 +1,6 @@
 #include <iostream>
-#include "function-1-1.cpp"
+extern int* readNumbers();
+extern void printNumbers(int* array, int length);
 
 using namespace std;
 

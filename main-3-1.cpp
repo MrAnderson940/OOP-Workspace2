@@ -1,5 +1,6 @@
 #include <iostream>
-#include "function-3-1.cpp"
+
+extern bool equalsArray(int *numbers1,int *numbers2,int length);
 
 using namespace std;
 

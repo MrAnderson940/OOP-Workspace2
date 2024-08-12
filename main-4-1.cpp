@@ -1,7 +1,10 @@
 #include <iostream>
-#include "function-4-1.cpp"
 
 using namespace std;
+extern int* readNumbers();
+extern void printNumbers(int* array, int length);
+extern int secondSmallestSum(int *numbers,int length);
+
 
 int main(){
     int* array1;
