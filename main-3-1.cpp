@@ -1,6 +1,8 @@
 #include <iostream>
 
 extern bool equalsArray(int *numbers1,int *numbers2,int length);
+extern int* readNumbers();
+
 
 using namespace std;
 

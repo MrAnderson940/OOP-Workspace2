@@ -2,6 +2,9 @@
 
 extern int* reverseArray(int *numbers1,int length);
 extern void printNumbers(int* array, int length);
+extern int* readNumbers();
+extern bool equalsArray(int *numbers1,int *numbers2,int length);
+
 
 using namespace std;
 

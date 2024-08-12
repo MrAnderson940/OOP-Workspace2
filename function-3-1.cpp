@@ -9,3 +9,11 @@ bool equalsArray(int *numbers1,int *numbers2,int length){
     }
     return true;
 }
+
+int* readNumbers(){
+    int* array = new int(10);
+    for (int i=0;i<10;i++){
+        cin >> array[i];
+    }
+    return array;
+}
