@@ -10,7 +10,7 @@ int main(){
     Person* p = createPersonArray(n);
 
     for (int i=0;i<n;i++){
-        cout << p[i].age << endl;
+        cout << p[i].age << " " << p[i].name << endl;
     }
 
     delete [] p;
