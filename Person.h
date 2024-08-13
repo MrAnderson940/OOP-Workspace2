@@ -3,6 +3,6 @@
 using namespace std;
 
 struct Person {
-    std::string name;
-    int age;
+    std::string name = "John Doe";
+    int age=0;
 };
