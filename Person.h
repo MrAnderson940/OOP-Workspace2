@@ -3,6 +3,12 @@
 using namespace std;
 
 struct Person {
-    std::string name = "John Doe";
-    int age=0;
+    std::string name;
+    int age;
+};
+
+
+struct PersonList {
+    Person* people;
+    int numPeople;
 };
