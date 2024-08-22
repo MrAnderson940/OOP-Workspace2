@@ -22,5 +22,4 @@ int MusicBox::get_width(){
 };
 
 MusicBox::~MusicBox(){
-    std::cout << "death\n";
 };
