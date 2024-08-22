@@ -14,7 +14,7 @@ StoreShelf::StoreShelf(int w){
     this->maxWidth = w;
     this->currentWidth = 0;
     this->musicCount = 0;
-    this->MusicBoxArray = new MusicBox;
+    this-> MusicBoxArray = new MusicBox;
 };
 
 int StoreShelf::get_width(){
