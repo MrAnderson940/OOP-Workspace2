@@ -1,9 +1,9 @@
 #include <iostream>
 #include <ctime>
-#include "vehicle.h"
-#include "bus.h"
-#include "car.h"
-#include "motorbike.h"
+#include "Vehicle.h"
+#include "Bus.h"
+#include "Car.h"
+#include "Motorbike.h"
 #include <unistd.h>
 
 
