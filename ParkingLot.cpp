@@ -27,7 +27,7 @@
                     return 0;
                 }
             } else if( i + 1 == count){
-                std::cout << "Vehicle not in lot\n";
+                std::cout << "Vehicle not in the lot\n";
                 return 0;
             }
         }
