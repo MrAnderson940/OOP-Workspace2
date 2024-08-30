@@ -14,3 +14,7 @@ Vehicle::Vehicle(){
 int Vehicle::getID(){
     return ID;
 }
+
+int Vehicle::getParkingDuration(){
+    return 0.9 * (time(&timeOfEntry) - timeStart);
+}

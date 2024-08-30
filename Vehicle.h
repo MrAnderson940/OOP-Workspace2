@@ -13,6 +13,7 @@ class Vehicle{
     Vehicle();
     Vehicle(int num);
     int getID();
+    int getParkingDuration();
     
 
 };

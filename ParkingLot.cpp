@@ -32,6 +32,17 @@
             }
         }
     };
+    int ParkingLot::countOverstayingVehicles(int maxParkingDuration){
+        int over = 0;
+        for (int i = 0; i<count; i++){
+        
+            if (vehicleArray[i].getParkingDuration() > maxParkingDuration){
+                over++;
+            }
+        }
+        return over;
+    };
+
     ParkingLot::~ParkingLot(){
         delete[] vehicleArray;
-    }
+    };
