@@ -12,6 +12,7 @@ class Vehicle{
     public:
     Vehicle();
     Vehicle(int num);
+    int getID();
     
 
 };

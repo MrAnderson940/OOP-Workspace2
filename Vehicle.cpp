@@ -10,3 +10,7 @@ Vehicle::Vehicle(int num){
 Vehicle::Vehicle(){
     ID = 0;
 }
+
+int Vehicle::getID(){
+    return ID;
+}
