@@ -7,9 +7,13 @@ class Player {
     std::string name;
     int health;
     int damage;
+    Player();
     Player(std::string n, int h, int d);
     void attack(Player* opponent, int dam);
     void takeDamage(int dam);
+    int getHealth();
+    int getDamage();
+    std::string getName();
     ~Player();
 };
 
