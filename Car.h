@@ -9,10 +9,10 @@ class Car{
     public:
     Car();
     Car(int p);
-    void drive(int kms);
-    int get_price();
+    virtual void drive(int kms);
+    virtual int get_price();
     int get_emissions();
-    void set_price(int p);
+    virtual void set_price(int p);
     void set_emissions(int e);
 
 };
