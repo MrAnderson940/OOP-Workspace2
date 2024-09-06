@@ -30,7 +30,7 @@ void Tesla::drive(int kms){
 char Tesla::get_model(){
     return model;
 };
-float Tesla::get_batterPercentage(){
+float Tesla::get_batteryPercentage(){
     return batteryPercentage;
 };
 void Tesla::set_model(char m){
