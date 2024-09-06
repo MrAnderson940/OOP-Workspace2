@@ -6,6 +6,7 @@ Ford::Ford(){
 Ford::Ford(int bn, int p){
     badgeNumber = bn;
     set_price(p);
+    litresOfFuel = 60;
 }; 
 void Ford::refuel(int litres){
     litresOfFuel += litres;
