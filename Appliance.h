@@ -1,6 +1,7 @@
 #ifndef APPLIANCE_H
 #define APPLIANCE_h
 #pragma once
+#include <iostream>
 
 class Appliance{
     private:
@@ -12,7 +13,7 @@ class Appliance{
     Appliance(int power);
     void turnOn();
     void turnOff();
-    double getPowerConsumption();
+    virtual double getPowerConsumption(){ return 6;};
     int get_powerRating();
     bool get_isOn();
     void set_powerRating(int power);

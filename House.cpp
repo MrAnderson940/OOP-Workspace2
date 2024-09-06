@@ -1,4 +1,7 @@
 #include "House.h"
+#include "Appliance.h"
+#include "TV.h"
+#include "Fridge.h"
 #include <iostream>
 
 House::House(){
@@ -9,10 +12,13 @@ House::House(){
 House::House(int num){
     numAppliance = 0;
     maxAppliance = num;
-    appliances = new Appliance*[num];
+    appliances = new Appliance*[num]();
+    for (int i = 0; i < num; ++i) {
+        appliances[i] = nullptr;  // Initialize to nullptr
+    }
 };
 bool House::addAppliance(Appliance* a){
-    if (numAppliance == maxAppliance){
+    if (numAppliance >= maxAppliance){
         return false;
     } else {
         appliances[numAppliance] = a;
@@ -22,13 +28,24 @@ bool House::addAppliance(Appliance* a){
 };
 double House::getTotalPowerConsumption(){
     double power = 0;
+    std::cout << appliances[0] << " " << appliances[1] << " " << numAppliance << std::endl;
     for (int i=0; i<numAppliance; i++){
-        std::cout << appliances[i]->getPowerConsumption() << " ";
-        power =+ appliances[i]->getPowerConsumption();
+        if (appliances[i] != nullptr){
+            std::cout << "t\n";
+            std::cout << appliances[i]->getPowerConsumption() << " ";
+            std::cout << "poo\n";
+            power += appliances[i]->getPowerConsumption();
+            std::cout << power << std::endl;
+        }
     }
-    std::cout << std::endl;
+    //std::cout << std::endl;
+    
     return power;
 };
 int House::getPowerRating(){
-    return appliances[0]->get_powerRating();
+    return appliances[0]->getPowerConsumption();
 }
+
+House::~House(){
+    delete[] appliances;
+};

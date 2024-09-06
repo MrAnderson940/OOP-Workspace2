@@ -17,10 +17,9 @@ void Appliance::turnOn(){
 void Appliance::turnOff(){
     isOn = false;
 };
-double Appliance::getPowerConsumption(){
-    return 0;
-};
+
 int Appliance::get_powerRating(){
+    std::cout << "fu\n";
     return powerRating;
 };
 bool Appliance::get_isOn(){
@@ -28,6 +27,7 @@ bool Appliance::get_isOn(){
 };
 void Appliance::set_powerRating(int power){
     powerRating = power;
+    std::cout << powerRating;
 };
 void Appliance::set_isOn(bool power){
     isOn = power;

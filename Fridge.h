@@ -1,5 +1,6 @@
 #ifndef FRIDGE_H
 #define FRIDGE_H
+#pragma once
 #include "Appliance.h"
 
 class Fridge : public Appliance{

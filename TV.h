@@ -1,5 +1,6 @@
 #ifndef TV_H
 #define TV_H
+#pragma once
 #include "Appliance.h"
 
 class TV: public Appliance{

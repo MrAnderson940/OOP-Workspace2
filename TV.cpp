@@ -3,6 +3,7 @@
 
 TV::TV(){
     screenSize = 0;
+    set_powerRating(0);
 };
 TV::TV(int power, double size){
     set_powerRating(power);
@@ -15,5 +16,7 @@ double TV::getScreenSize(){
     return screenSize;
 };
 double TV::getPowerConsumption(){
-    return (get_powerRating() * screenSize / 10);
+    std::cout << "plz\n" << get_powerRating() << std::endl;
+    //return (get_powerRating() * screenSize / 10);
+    return 200;
 };
