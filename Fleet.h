@@ -7,9 +7,10 @@
 
 class Fleet{
     private:
-    Car** fleet;
+    
 
     public:
+    Car** fleet;
     Fleet();
     Car **get_fleet();  
 };
