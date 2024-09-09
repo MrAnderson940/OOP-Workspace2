@@ -11,12 +11,12 @@ class Tesla: public Car{
     public:
     Tesla();            
     Tesla(char m, int p);
-    void chargeBattery(int mins);            
-    void drive(int kms); 
-    char get_model();
-    float get_batteryPercentage();
-    void set_model(char m);
-    void set_batterPercentage(float);
+    virtual void chargeBattery(int mins);            
+    virtual void drive(int kms); 
+    virtual char get_model();
+    virtual float get_batteryPercentage();
+    virtual void set_model(char m);
+    virtual void set_batterPercentage(float);
 };
 
 
