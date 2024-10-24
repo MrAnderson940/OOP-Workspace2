@@ -25,7 +25,7 @@ void setCoordinates(int lx, int ly){
     x=lx;
     y=ly;
 }
-//std::pair<int,int> getCoordinates()
+std::pair<int,int> getCoordinates()
 int getGridWidth(){
     return width;
 }
