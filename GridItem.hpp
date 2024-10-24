@@ -41,6 +41,12 @@ int getGridWidth(){
 int getGridHeight(){
     return height;
 }
+void setGridHeight(int h){
+    height = h;
+}
+void setGridWitdth(int w){
+    width = w;
+}
 
 int getActiveGridItemCount(){
     return itemCount;

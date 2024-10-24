@@ -9,11 +9,11 @@
 
 class Robot : public GridItem {
 private:
-    int gridWidth, gridHeight, health;
+    int health;
 public:
 Robot(int gWidth, int gHeight){
-    gridHeight = gHeight;
-    gridWidth = gWidth;
+    setGridWitdth(gWidth);
+    setGridHeight(gHeight);
     health =3;
     setCoordinates(0,0);
  }
