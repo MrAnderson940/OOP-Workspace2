@@ -1,6 +1,6 @@
 #ifndef GRIDITEM_HPP
 #define GRIDITEM_HPP
-
+#include <math.h>
 #pragma once
 
 class GridItem{
@@ -26,7 +26,12 @@ void setCoordinates(int lx, int ly){
     x=lx;
     y=ly;
 };
-std::pair<int,int> getCoordinates();
+std::pair<int,int> getCoordinates(){
+    std::pair<int,int> pair;
+    pair.first = x;
+    pair.second =y;
+    return pair;
+};
 
 int getGridWidth(){
     return width;
