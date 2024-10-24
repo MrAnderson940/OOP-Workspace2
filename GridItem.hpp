@@ -7,7 +7,8 @@ class GridItem{
 private:
     int x, y, width, height, itemCount;
 
-GridItem(int lx, int ly, int w, int h){
+public:
+GridItem(int lx, int ly, int w, int h): GridItem(){
     x=lx;
     y=ly;
     width=w;
