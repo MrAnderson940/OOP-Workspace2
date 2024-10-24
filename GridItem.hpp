@@ -22,6 +22,12 @@ GridItem(){
     height=1;
     itemCount=0;
 };
+std::pair<int,int> getCoordinates(){
+    std::pair<int,int> pair;
+    pair.first = x;
+    pair.second =y;
+    return pair;
+};
 void setCoordinates(int lx, int ly){
     x=lx;
     y=ly;
