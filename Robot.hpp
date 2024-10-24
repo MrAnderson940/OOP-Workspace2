@@ -15,6 +15,7 @@ Robot(int gWidth, int gHeight){
     gridHeight = gHeight;
     gridWidth = gWidth;
     health =3;
+    setCoordinates(0,0);
  }
 int getHealth(){
     return health;
