@@ -1,6 +1,7 @@
 #ifndef GRIDITEM_HPP
 #define GRIDITEM_HPP
 #include <math.h>
+#include <iostream>
 #pragma once
 
 class GridItem{
