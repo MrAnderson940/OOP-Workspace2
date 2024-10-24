@@ -20,7 +20,7 @@ GridItem(){
     x=0;
     y=0;
     width=0;
-    height=0;
+    height=0    ;
     itemCount=0;
 }
 void setCoordinates(int lx, int ly){
@@ -35,7 +35,7 @@ std::pair<int,int> getCoordinates(){
 }
 
 int getGridWidth(){
-    return width;
+    return 5;
 }
 
 int getGridHeight(){
