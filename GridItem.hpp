@@ -43,7 +43,7 @@ int getGridHeight(){
 }
 
 int getActiveGridItemCount(){
-    return 5;
+    return itemCount;
 }
 
 ~GridItem(){}
