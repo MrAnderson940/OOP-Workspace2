@@ -19,8 +19,8 @@ GridItem(int lx, int ly, int w, int h): GridItem(){
 GridItem(){
     x=0;
     y=0;
-    width=1;
-    height=1;
+    width=0;
+    height=0;
     itemCount=0;
 }
 void setCoordinates(int lx, int ly){
