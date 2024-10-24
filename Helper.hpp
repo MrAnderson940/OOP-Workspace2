@@ -6,10 +6,9 @@
 #include <math.h>
 #include <iostrem> 
 
-class Helper{
-private:
+namespace helper{
     
-public:
+} // namespace helper
     Helper();
     / function to calculate the euclidean distance between two coordinates.
     double euclideanDistance(std::pair<int, int> item1, std::pair<int, int> item2){
@@ -19,6 +18,7 @@ public:
         return n;
     }
     ~Helper();
+
 };
 
 
