@@ -35,7 +35,7 @@ std::pair<int,int> getCoordinates(){
 }
 
 int getGridWidth(){
-    return 5;
+    return width;
 }
 
 int getGridHeight(){
@@ -43,7 +43,7 @@ int getGridHeight(){
 }
 
 int getActiveGridItemCount(){
-    return itemCount;
+    return 5;
 }
 
 ~GridItem(){}
